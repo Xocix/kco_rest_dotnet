@@ -73,7 +73,8 @@
   "customer": {
     "date_of_birth": "1995-10-20",
     "type": "person",
-    "organization_registration_id": "556737-0431"
+    "organization_registration_id": "556737-0431",
+    "gender": "female"
   },
   "merchant_urls": {
     "terms": "https://www.example.com/terms.html",

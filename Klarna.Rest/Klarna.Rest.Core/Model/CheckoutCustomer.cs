@@ -22,5 +22,10 @@ namespace Klarna.Rest.Core.Model
         /// </summary>
         [JsonProperty(PropertyName = "organization_registration_id")]
         public string OrganizationRegistrationId { get; set; }
+        /// <summary>
+        /// The gender of the person. This is not known in all markets 
+        /// </summary>
+        [JsonProperty(PropertyName = "gender")]
+        public string Gender { get; set; }
     }
 }
